@@ -6,8 +6,9 @@
 const PGfoodSafetyData = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
 
 const name = []; //an empty arrray to store the restaurants
+const category = []; 
+/*for future use 
 const establishment_id = [];
-const category = [];
 const inspection_date = [];
 const inspection_results = [];
 const city = [];
@@ -33,7 +34,7 @@ const food_contact_surfaces_and = [];
 const inspection_type = [];
 const owner = [];
 const type = [];
-const geocoded_column_1 = [];
+const geocoded_column_1 = [];*/
 
 // fetch the data
 fetch(PGfoodSafetyData)
