@@ -26,11 +26,12 @@ function displayNameOrCategory() {
 
     const nameOfThePlace = place.name.replace(regex, `<span class="h2">${this.value}</span>`);
     const categoryFood = place.category.replace(regex, `<span class="h2">${this.value}</span>`);
-    return `
+    return `<div class="output">
       <li>
         <span class="name">${nameOfThePlace}, ${categoryFood}</span>
         <span class="address">${place.address_line_1}</span>
       </li>
+      </div>
     `;
   }).join('');
   suggestions.innerHTML = html;
