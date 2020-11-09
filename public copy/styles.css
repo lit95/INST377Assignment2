@@ -59,19 +59,16 @@ html {
     justify-content: space-between;
     text-transform: capitalize;
   }
-  
-  .suggestions li:nth-child(even) {
+
+  .output{
     background: linear-gradient(to bottom,  #f1e9e9 0%,#d19898 100%);
-  }
-  
-  .suggestions li:nth-child(odd) {
-    background: linear-gradient(to top,  #d6d2f1 0%,#e4eeec 100%);
   }
   
   
   .h2 {
     background: #2bff0063;
   }
+
 
   .h1 {
     font-family: Arial, Helvetica, sans-serif;
